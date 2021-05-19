@@ -1,0 +1,9 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+ .button{
+   -fx-background-radius:30px;
+   -fx-background-color: #005778;
+ }
+   

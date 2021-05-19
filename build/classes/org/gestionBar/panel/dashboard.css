@@ -1,0 +1,29 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+-fx-background-color: white;
+}
+#paneId{
+    -fx-background-color: #C0DFFE;
+}
+#AreaChartView{
+    -fx-background-color:#6EC292;
+     -fx-font-family: Ebrima;
+     -fx-font-size:18px;
+     -fx-font-weight:bold;
+     -fx-border-color: #005778;
+      
+     -fx-border-width: 5;
+ /*    -fx-border-style: dashed;*/
+     
+}
+#paneView{
+    -fx-background-color:#FEB449;
+     -fx-font-family: Ebrima;
+     -fx-font-size:18px;
+     -fx-font-weight:bold;
+      -fx-border-color: #F6821E;
+     -fx-border-width: 5;
+}

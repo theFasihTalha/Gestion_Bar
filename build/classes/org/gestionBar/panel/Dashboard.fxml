@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gn.lab.GNCalendarTile?>
+<?import java.net.URL?>
+<?import javafx.scene.chart.AreaChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1380.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.gestionBar.panel.DashboardController">
+    <stylesheets>
+        <URL value="@dashboard.css" />
+    </stylesheets>
+   <children>
+      <Pane fx:id="paneId" prefHeight="52.0" prefWidth="1380.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Label layoutX="14.0" layoutY="4.0" prefHeight="43.0" prefWidth="231.0" text="Dashboard">
+               <font>
+                  <Font name="Ebrima Bold" size="26.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="43.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/icons8-tableau-de-bord-64.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+              
+                        </Label>
+         </children>
+      </Pane>
+      <HBox layoutY="50.0" prefHeight="473.0" prefWidth="1380.0" AnchorPane.bottomAnchor="277.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0">
+         <children>
+            <Pane fx:id="paneView" prefHeight="490.0" prefWidth="675.0">
+               <effect>
+                  <DropShadow />
+               </effect></Pane>
+            <GNCalendarTile prefHeight="294.0" prefWidth="804.0" />
+         </children>
+      </HBox>
+      <AreaChart fx:id="AreaChartView" layoutY="531.0" prefHeight="299.0" prefWidth="1402.0" title="Vente de la Semaine" AnchorPane.bottomAnchor="-30.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+        <xAxis>
+          <CategoryAxis endMargin="0.0" focusTraversable="true" label="Jour" prefHeight="52.0" prefWidth="1285.0" side="RIGHT" startMargin="0.0" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis focusTraversable="true" label="quantité" prefHeight="153.0" prefWidth="54.0" />
+        </yAxis>
+         <effect>
+            <DropShadow radius="34.4625" width="118.85" />
+         </effect>
+      </AreaChart>
+   </children>
+</AnchorPane>

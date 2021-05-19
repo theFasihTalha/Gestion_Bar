@@ -1,0 +1,67 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+ .btn_categ{
+   -fx-background-radius:30px;
+   -fx-background-color: #005778;
+   -fx-text-fill:#fff;
+  
+ }
+.btn_categ:hover {
+   -fx-background-color: rgb(26, 140, 255,0.3 );
+  
+ 
+    -fx-text-fill: black;
+}
+.btn_categ:pressed {
+   -fx-background-color: rgb(105, 108, 189,0.3);
+       -fx-text-fill: black;
+}
+.btn_categ:focused{
+   -fx-background-color: rgb(110, 194, 146);
+}
+#paneId{
+    -fx-background-color: #C0DFFE;
+}
+.btn_calc{
+    -fx-background-color: #2fd179;
+}
+
+.btn_calc:hover{
+     -fx-background-color: #008BDF;
+    -fx-text-fill: whitesmoke;
+}
+.btn_calc:pressed{
+     -fx-background-color: #F6821E;
+    -fx-text-fill: whitesmoke;
+}
+#display{
+      -fx-background-color: #D8D1CD;
+}
+.table-view{
+    -fx-background-color: rgb(164, 167, 200);
+    -fx-background-radius: 30; 
+    -fx-fill: white;
+}
+.table-view .column-header-background{
+/*    -fx-background-color: rgb(83,65,65);*/
+      -fx-background-color: rgb(0, 87, 120);
+
+     -fx-background-radius: 30;
+     -fx-background-insets: 0 0 10 0;
+     -fx-padding: 0 0 10 0;
+     -fx-effect: dropshadow(two-pass-box, rgb(10,101,107),15,0.0,0.1,1);
+}
+.table-view .column-header, .table-view .filler{
+    -fx-size: 40;
+    -fx-border-width: 0 0 10 0;
+     -fx-background-color: transparent;
+}
+.table-view .column-header .label{
+    -fx-text-fill:white;
+}
+.table-row-cell:hover {
+   -fx-background-color: rgb(192, 223, 254); 
+   -fx-text-background-color:  #6622CC;
+}

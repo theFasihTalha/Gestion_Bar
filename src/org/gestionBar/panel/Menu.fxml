@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.gestionBar.panel.MenuController">
+  
+    <children>
+      <VBox fx:id="mn" alignment="TOP_CENTER" layoutY="-3.0" prefHeight="808.0" prefWidth="279.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fx:id="me" fitHeight="230.0" fitWidth="144.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+               <image>
+                  <Image url="@image/talha.png" />
+               </image>
+               <VBox.margin>
+                  <Insets top="50.0" />
+               </VBox.margin></ImageView>
+            <Pane prefHeight="61.0" prefWidth="330.0">
+               <children>
+                  <Label layoutX="75.0" layoutY="21.0" prefHeight="17.0" prefWidth="130.0" text="TheFasihTalha" textFill="#04ff00">
+                     <graphic>
+                        <ImageView fitHeight="17.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@image/icons8-green-circle-48.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font name="Cambria" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Button alignment="BASELINE_LEFT" graphicTextGap="20.0" mnemonicParsing="false" onAction="#Dashboard" prefHeight="62.0" prefWidth="303.0" styleClass="round-red" text="Dashboard">
+               <graphic>
+                  <ImageView fitHeight="34.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/icons8-accueil-64.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+               <font>
+                  <Font name="Ebrima Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button alignment="BASELINE_LEFT" graphicTextGap="20.0" layoutX="10.0" layoutY="247.0" mnemonicParsing="false" onAction="#Caisse" prefHeight="58.0" prefWidth="330.0" styleClass="round-red" text="Caisse">
+               <graphic>
+                  <ImageView fitHeight="34.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/icons8-caisse-enregistreuse-64.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+               <font>
+                  <Font name="Ebrima Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button alignment="BASELINE_LEFT" graphicTextGap="20.0" layoutX="10.0" layoutY="247.0" mnemonicParsing="false" onAction="#Boisson" prefHeight="58.0" prefWidth="330.0" styleClass="round-red" text="Boisson">
+               <graphic>
+                  <ImageView fitHeight="49.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/icons8-alimentation-fast-food-street-food-09-64.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+               <font>
+                  <Font name="Ebrima Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button alignment="BASELINE_LEFT" graphicTextGap="20.0" layoutX="10.0" layoutY="247.0" mnemonicParsing="false" onAction="#Fournisseur" prefHeight="57.0" prefWidth="330.0" styleClass="round-red" text="Fournisseur">
+               <graphic>
+                  <ImageView fitHeight="34.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/icons8-fournisseur-64.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+               <font>
+                  <Font name="Ebrima Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button alignment="BASELINE_LEFT" graphicTextGap="20.0" layoutX="10.0" layoutY="247.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="330.0" styleClass="round-red" text="Stock">
+               <graphic>
+                  <ImageView fitHeight="38.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/icons8-caddie-64.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+               <font>
+                  <Font name="Ebrima Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button alignment="BASELINE_LEFT" graphicTextGap="20.0" layoutX="10.0" layoutY="427.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="330.0" styleClass="round-red" text="Deconnection">
+               <graphic>
+                  <ImageView fitHeight="42.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/icons8-sortie-64.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+               <font>
+                  <Font name="Ebrima Bold" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <VBox fx:id="Contenu" layoutX="279.0" layoutY="-14.0" prefHeight="783.0" prefWidth="1090.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="279.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,26 @@
+#mn{
+  -fx-background-image:  url("image/brick-wall-dark.png");
+    
+  /*  -fx-background-color: rgb(23, 139, 255,0.5);*/
+     -fx-background-color: rgb(51, 54, 69, 0.9);
+     
+}
+
+.round-red {
+   -fx-background-color: transparent;
+  
+    -fx-text-fill: white;
+}
+.round-red:hover {
+   -fx-background-color: rgb(26, 140, 255,0.3 );
+    -fx-text-fill: black;
+}
+.round-red:pressed {
+   -fx-background-color: rgb(105, 108, 189,0.3);
+       -fx-text-fill: black;
+}
+.round-red:focused{
+   -fx-background-color: rgb(110, 194, 146);
+}
+
+

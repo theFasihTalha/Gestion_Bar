@@ -1,0 +1,13 @@
+.btn{
+   -fx-background-radius:75px;
+    -fx-margin:0px 8px 0px 8px;  
+}
+.btn:hover{
+    -fx-background-color: #FFC487;
+}
+.btn:pressed{
+    -fx-background-color: #6EC292;
+}
+.scroll-pane > .corner {
+    -fx-background-color: black;
+}
